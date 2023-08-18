@@ -13,6 +13,19 @@
   }
 }
 
+body {
+  /* width: 100vw;
+  height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  color: black;
+  /* background: linear-gradient(231deg, rgba(22, 6, 40, 1) 0%, rgba(52, 28, 79, 1) 50%, rgba(88, 7, 125, 1) 100%); */
+  background: rgb(17,67,98);
+  background: linear-gradient(100deg, rgba(17,67,98,1) 0%, rgba(110,206,249,1) 100%); 
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
